@@ -1,0 +1,95 @@
+/* Defaults */
+
+:root {
+    --primary-color:#2d3250;
+    --secondary-color: #424769;
+    --third-color: #7077A1;
+
+    --primary-text: #FFFFFF;
+    --secondary-text: #F6B17A;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1,h2,h3,h4,h5,h6,p {
+    color: var(--primary-text);
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color)!important;
+}
+.bg-secondary {
+    background-color: var(--secondary-color)!important;
+}
+.bg-third {
+    background-color: var(--third-color);
+}
+.bg-fourth {
+    background-color: var(--fourth-color);
+}
+
+.text-primary {
+    color: var(--primary-text);
+}
+.text-secondary  {
+    color: var(--secondary-text)!important; /*why important bootstrap? BAD!*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-close2 {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-height: 2rem;
+}
+
+
+
+/* Bootstrap overide */
+ul#cart-menu {
+    right: 0;
+    left: auto;
+    min-width: 20rem;
+    padding: 0.5rem;
+    background-color: var(--third-color);
+    color: var(--primary-text);
+}
+
+.navbar {
+    position: sticky;
+    background-color: var(--primary-color);
+
+}
+.navbar-collapse {
+    box-sizing: inherit;
+}
+
+.navbar-brand {
+    margin-right: 1em;
+    font-size: xx-large;
+}
+
+.nav-link {
+    font-size: large;
+    color: white;
+    
+}
+
+.game-info {
+    margin-top: 40rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+
+
